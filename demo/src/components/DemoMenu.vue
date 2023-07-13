@@ -6,21 +6,22 @@
         :key="index"
         :name="name"
         :text="text"
-        :link="path"/>
+        :link="path"
+      />
     </div>
   </div>
 </template>
 
 <script setup>
-import DemoMenuCard from './DemoMenuCard.vue'
-import routes from '../routes'
+import DemoMenuCard from "./DemoMenuCard.vue";
+import routes from "../routes";
 </script>
 
 <style lang="scss" scoped>
 .cards {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1600px) {

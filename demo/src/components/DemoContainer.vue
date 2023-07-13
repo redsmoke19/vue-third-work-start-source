@@ -15,9 +15,9 @@
   height: 20rem;
 }
 .link {
-  border-bottom: 1px solid #343838FF;
-  color: #343838FF;
-  padding-bottom: .25rem;
+  border-bottom: 1px solid #343838ff;
+  color: #343838ff;
+  padding-bottom: 0.25rem;
   text-decoration: none;
 }
 .link_container {
